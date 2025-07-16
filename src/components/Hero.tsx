@@ -13,7 +13,7 @@ const Hero = () => {
                         </span>{' '}
                         Portfolio
                     </h1>
-                    <p className='text-xl md:text-2xl text-gray-300 mb-8'>Creative Front-End Developer | Web Designer | Innovator</p>
+                    <p className='text-xl md:text-2xl text-gray-300 mb-8'>Front-End Developer | Web Designer | Fullstack</p>
                     <div className='flex flex-col sm:flex-row gap-4'>
                         <a
                             href='#portfolio'

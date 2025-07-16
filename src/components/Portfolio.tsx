@@ -7,12 +7,11 @@ import netflix from '../Assets/netflix.png';
 const Portfolio = () => {
     const projects = [
         {
-            title: 'PadiPos - Dashboard',
-            description: 'A modern dashboard for managing online store operations with real-time analytics.',
+            title: 'Pecel_Apps - POS System ',
+            description: 'A Point of Sale (POS) system for managing sales and inventory. login with username: admin@gmail.com and password: password',
             image: padipos,
-            technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Redux'],
-            demoUrl: '#',
-            githubUrl: '#',
+            technologies: ['Laravel', 'Inertia.js', 'Tailwind CSS', 'MySQL','Filament'],
+            demoUrl: 'https://jualpecel.my.id',
         },
         {
             title: 'SIK - Sistem Informasi KLHS',
@@ -20,7 +19,6 @@ const Portfolio = () => {
             image: sik,
             technologies: ['React', 'TypeScript', 'Tailwind CSS', 'API'],
             demoUrl: 'https://siera-klhs.vercel.app/',
-            githubUrl: 'https://github.com/salak96/SIERA_KLHS',
         },
         {
             title: 'Lakban KIKO Website',
@@ -28,7 +26,6 @@ const Portfolio = () => {
             image: lakban,
             technologies: ['React.js', 'Tailwind CSS', 'API'],
             demoUrl: 'https://lakkban-solo-website.vercel.app/',
-            githubUrl: 'https://github.com/salak96/lakkban_solo_react',
         },
         {
             title: 'Netflix clone Web App',
@@ -36,7 +33,6 @@ const Portfolio = () => {
             image: netflix,
             technologies: ['React JS', 'Api', 'Firebase'],
             demoUrl: 'https://netflix-lambang.vercel.app/',
-            githubUrl: 'https://github.com/salak96/netflix_clone_react',
         },
     ];
 
@@ -71,13 +67,6 @@ const Portfolio = () => {
                                         className='flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors'
                                     >
                                         Live Demo <ExternalLink className='w-4 h-4' />
-                                    </a>
-                                    <a
-                                        href={project.githubUrl}
-                                        target='_blank'
-                                        className='flex items-center gap-2 text-gray-300 hover:text-white transition-colors'
-                                    >
-                                        Source <Github className='w-4 h-4' />
                                     </a>
                                 </div>
                             </div>

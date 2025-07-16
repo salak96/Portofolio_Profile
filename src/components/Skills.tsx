@@ -4,16 +4,16 @@ import { Code2, Globe, Sparkles, GitBranch, Layout, Palette } from 'lucide-react
 const Skills = () => {
     const skills = [
         {
-            category: 'Frontend Development',
+            category: 'Web Development',
             icon: Code2,
             color: 'text-blue-400',
-            items: ['React JS', 'Next JS', 'TypeScript'],
+            items: ['React JS', 'Next JS', 'TypeScript','Laravel', 'Node JS', 'Express JS', 'PHP', 'MySQL']
         },
         {
             category: 'Web Technologies',
             icon: Globe,
             color: 'text-purple-400',
-            items: ['HTML5', 'CSS3', 'JavaScript', 'REST APIs'],
+            items: ['HTML5', 'CSS3', 'JavaScript', 'REST APIs', , 'JSON', 'AJAX','WordPress','Cpanel'],
         },
         {
             category: 'UI/UX Design',
